@@ -26,7 +26,7 @@ services:
       - WORDPRESS_DATABASE_USER=bn_wordpress
       - WORDPRESS_DATABASE_NAME=bitnami_wordpress
 volumes:
-  mariadb_data:
+  mysqldb_data:
     driver: local
   wordpress_data:
     driver: local
