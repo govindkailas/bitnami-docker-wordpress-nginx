@@ -17,7 +17,7 @@ services:
     volumes:
       - 'wordpress_data:/bitnami/wordpress'
     depends_on:
-      - mariadb
+      - mysqldb
     environment:
       # ALLOW_EMPTY_PASSWORD is recommended only for development.
       - ALLOW_EMPTY_PASSWORD=yes
